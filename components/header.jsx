@@ -1,5 +1,6 @@
 import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs"
 import Image from "next/image"
+import Link from "next/link"
 
 const Header = () => {
   return (
@@ -8,7 +9,10 @@ const Header = () => {
             <nav>
               <Link href="/">
               <Image
-              src={"/logo.png"} alt="Economy" height={60} width={200}
+              src={"/logo.png"} 
+              alt="Economy logo" 
+              height={60} 
+              width={200}
               className="h-12 w-auto object-contain"
               />
               </Link>
