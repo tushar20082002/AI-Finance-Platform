@@ -11,7 +11,7 @@ const isProtectedRoute = createRouteMatcher([
 //Add Arcjet middleware
 const aj = arcjet({
   key: process.env.ARCJET_KEY,
-  // characteristics: ["userId"], // Track based on Clerk userId
+  //    characteristics: ["userId"], // Track based on Clerk userId
   rules: [
     // Shield protection for content and security
     shield({
