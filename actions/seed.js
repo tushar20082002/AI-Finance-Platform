@@ -6,7 +6,7 @@ import { subDays } from "date-fns";
 const ACCOUNT_ID = "account-id";
 const USER_ID = "user-id";
 
-// Categories with typical amount ranges
+// Categories with their typical amount ranges
 const CATEGORIES = {
   INCOME: [
     { name: "salary", range: [5000, 8000] },
